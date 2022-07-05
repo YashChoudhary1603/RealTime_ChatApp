@@ -1,0 +1,19 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "this is our first node server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": " nodemon index.js"
+  },
+  "author": "Yash",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.4.1",
+    "soket.io": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
